@@ -69,7 +69,7 @@ body, html{font-family: 'Intro', sans-serif; color:var(--munu_color); font-size:
   justify-content:center; 
   background-position: center center; 
   background-size:cover;
-  background-image: url('img/Cover2.png');
+  background-image: url('img/Cover.png');
   }
 
   .body{
