@@ -56,7 +56,8 @@ body, html{font-family: 'Intro', sans-serif; color:var(--munu_color); font-size:
 
 
   /*Body*/
-.spacer{height: 75px;}
+.spacer_head{height: 75px;}
+.spacer{height: 80px;}
 
 .cover{ 
   text-align: center; 
@@ -90,7 +91,8 @@ h4, p, ol, .text-4 {font-size: 1.2rem;margin-bottom:1rem; line-height: 1.5;}
 			[class*='col-'] { position: relative; padding: 0 15px;}
 			.grid .grid [class*='col-'] {padding: 0px;}
 
-			.col-20{ width: 20%; }
+			.col-10{width: 10%;}
+      .col-20{ width: 20%; }
 			.col-25{ width: 25%; }
 			.col-30{ width: 30%; }
 			.col-33{ width: 33.33%; }
@@ -99,6 +101,7 @@ h4, p, ol, .text-4 {font-size: 1.2rem;margin-bottom:1rem; line-height: 1.5;}
       .col-60{ width: 60%;}
 			.col-70{ width: 70%; }
 			.col-80{ width: 80%; }
+      .col-90 {width: 90%;}
 			.col-100{ width: 100%; }
 
 			@media (max-width: 991px) {
@@ -121,7 +124,10 @@ h4, p, ol, .text-4 {font-size: 1.2rem;margin-bottom:1rem; line-height: 1.5;}
 
 /*footer*/
 footer {
-  height: 300px;
-  background-color: #0D2843;
+  height: 275px;
+  background-color: var(--munu_color);
+  color: var(--button);
+  text-decoration: var(--button)
 }
+footer a{color: var(--button);}
 
